@@ -8,9 +8,16 @@
   <artifactId>maven-quick-start</artifactId>
   <version>1.0</version> 
   
+  <dependencies>
+	<dependency>
+		<groupId>org.apache.commons</groupId>
+		<artifactId>commons-lang3</artifactId>
+		<version>3.5</version>
+	</dependency>	
+  </dependencies>
+  
   <build>
-    <plugins>
-	  <!-- Cambiar la version por defecto que se utliza para compilar -->	
+    <plugins>	  
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
